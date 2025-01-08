@@ -41,15 +41,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-950">
+      <main className="bg-white px-0 md:px-20 lg:px-40 dark:bg-gray-950">
         {/* Navigation Bar */}
         <section className="min-h-screen">
           {/* <nav className="w-full py-10 mb-12 bg-gradient-to-r from-green-200 via-orange-300 to-yellow-200 shadow-md"> */}
           <nav className="py-10 mb-12 shadow-lg">
             <div className="flex justify-between items-center px-4 sm:px-8">
-              <h1 className="text-xl text-gray-800 font-poppins dark:text-white">
+              <h1 className="text-sm sm:text-xl text-gray-800 font-poppins dark:text-white">
                 Blessing Patrick
               </h1>
+
               <ul className="flex items-center">
                 <li>
                   <BsFillMoonStarsFill
@@ -101,10 +102,7 @@ export default function Home() {
           </div>
 
           {/* 3D Image of Blessing */}
-          <div
-            className="relative bg-gradient-to-b from-teal-500 mx-auto rounded-full w-80 h-80 mt-20
-          overflow-hidden md:h-96 md:w-96"
-          >
+          <div className="relative bg-gradient-to-b from-teal-500 mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={Bee} layout="fill" objectFit="cover" />
           </div>
         </section>
