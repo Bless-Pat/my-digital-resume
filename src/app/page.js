@@ -219,7 +219,7 @@ export default function Home() {
 
             {/* Image Section */}
             <div className="flex-shrink-0">
-              <div className="w-100 h-72 bg-white rounded-md shadow-lg overflow-hidden">
+              <div className="w-full h-60 sm:h-72 bg-white rounded-md shadow-lg overflow-hidden">
                 <img
                   src="/Cert.png"
                   alt="Creative Visual"
