@@ -96,7 +96,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/techdivva/">
               <AiFillLinkedin />
             </a>
-            <a href="#">
+            <a href="https://github.com/Bless-Pat">
               <FaGithub />
             </a>
           </div>
@@ -191,6 +191,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Tailwind CSS</p>
               <p className="text-gray-800 py-1">Bubble</p>
+              <p className="text-gray-800 py-1">Git, Github</p>
             </div>
           </div>
         </section>
