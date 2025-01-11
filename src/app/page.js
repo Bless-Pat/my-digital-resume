@@ -147,37 +147,37 @@ export default function Home() {
             </div>
           </div>
 
-          {/* the card systems */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+          {/* The card system */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 sm:px-8">
+            <div className="text-center shadow-lg p-8 rounded-xl my-6 md:my-10 dark:bg-white">
               <Image src={apart} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2 text-orange-600">
                 What Sets me Apart
               </h3>
 
-              <p className="text-gray-800 py-1 ">
+              <p className="text-gray-800 py-1">
                 Attention to detail in UI design.
               </p>
-              <p className="text-gray-800 py-1 ">
+              <p className="text-gray-800 py-1">
                 Passionate about solving user problems.
               </p>
-              <p className="text-gray-800 py-1 ">
+              <p className="text-gray-800 py-1">
                 Quick learner and adaptive to new tech.
               </p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-8 rounded-xl my-6 md:my-10 dark:bg-white">
               <Image src={ticks} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2 text-orange-600">
                 Core Skills
               </h3>
 
-              <p className="text-gray-800 py-1 ">Responsive Web Design</p>
-              <p className="text-gray-800 py-1 ">Clean Code Practices</p>
-              <p className="text-gray-800 py-1 ">Cross-Browser Compatibility</p>
+              <p className="text-gray-800 py-1">Responsive Web Design</p>
+              <p className="text-gray-800 py-1">Clean Code Practices</p>
+              <p className="text-gray-800 py-1">Cross-Browser Compatibility</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-8 rounded-xl my-6 md:my-10 dark:bg-white">
               <Image
                 src={skills}
                 width={100}
@@ -188,9 +188,9 @@ export default function Home() {
                 Tools I use
               </h3>
 
-              <p className="text-gray-800 py-1 ">React</p>
-              <p className="text-gray-800 py-1 ">Tailwind CSS</p>
-              <p className="text-gray-800 py-1 ">Bubble</p>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">Tailwind CSS</p>
+              <p className="text-gray-800 py-1">Bubble</p>
             </div>
           </div>
         </section>
