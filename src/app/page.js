@@ -276,9 +276,122 @@ export default function Home() {
                 </div>
               </a>
             </div>
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://sannex.ng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative group overflow-hidden rounded-lg">
+                  <Image
+                    src={web2}
+                    className="object-cover transform transition duration-300 group-hover:scale-110 group-hover:shadow-xl"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <p className="text-white font-bold text-lg">
+                      Visit Website
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
 
-            {/* Add more portfolio items here */}
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://nivasity.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative group overflow-hidden rounded-lg">
+                  <Image
+                    src={web5}
+                    className="object-cover transform transition duration-300 group-hover:scale-110 group-hover:shadow-xl"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <p className="text-white font-bold text-lg">
+                      Visit Website
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://nivasity.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative group overflow-hidden rounded-lg">
+                  <Image
+                    src={web4}
+                    className="object-cover transform transition duration-300 group-hover:scale-110 group-hover:shadow-xl"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <p className="text-white font-bold text-lg">
+                      Visit Website
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://tife-stuhub.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative group overflow-hidden rounded-lg">
+                  <Image
+                    src={stuhub}
+                    className="object-cover transform transition duration-300 group-hover:scale-110 group-hover:shadow-xl"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <p className="text-white font-bold text-lg">
+                      Visit Website
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://tife-stuhub.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative group overflow-hidden rounded-lg">
+                  <Image
+                    src={stuhubb}
+                    className="object-cover transform transition duration-300 group-hover:scale-110 group-hover:shadow-xl"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <p className="text-white font-bold text-lg">
+                      Visit Website
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
+
+          {/* Add more portfolio items here */}
         </section>
 
         {/* Footer */}
